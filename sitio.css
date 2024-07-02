@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.principal{
+    background: linear-gradient(5deg, #590202 0%, #0D0D0D 100%);
+    min-height: 100vh
+}
+
+.principal header {
+    padding: 10px 100px;
+    min-height: 110px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0D0D0D;
+  
+  }
+
+  .principal header .logo {
+    max-width: 90px;
+  }
+  
+  .principal header .navegacion {
+    display: flex;
+  }
+  
+  .principal header .navegacion li {
+    list-style: none;
+  
+  }
+  
+  .principal header .navegacion li a {
+    text-decoration: none;
+    color: #D8D9D7;
+    position: relative;
+    margin-left: 40px;
+  }
+
+#content{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+
+  #content .texto {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+    margin-left: 100px;
+    z-index: 2;
+    opacity: 95%;
+  }
+
+  .content-img{
+    margin-right: 350px;
+    margin-top: 150px;
+    z-index: 1;
+  }
+
+  .titulo{
+    color:#8C0303;
+    font-size: 400px;
+  }
+
+  .subtitulo{
+    color: #D8D9D7;
+    font-size: 50px;
+  }
+  
+  h1{
+    color:#D8D9D7 ;
+    text-align: center;
+  }
+
+h3{
+    color:#ffffff ;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    color: #D90404;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    font-size: 14px;
+}
+
+  #characters{
+    min-height: 100vh;
+    background: linear-gradient(5deg, #8C0303 0%, #590202 100%);
+  }
+
+  .content-img1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
+  .content-img2{
+    display: flex;
+    justify-content: center ;
+    padding: 10px;
+  }
+
+  .guts{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+  }
+  .gutsi{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+    border-radius: 20px;
+  }
+
+  .casca{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+  }
+
+
+  .cascai{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+  }
+
+  .griffith{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+  }
+
+  .griffithi{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+
+  }
+
+  .puck{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+  }
+
+  .pucki{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+  }
+
+.schierke{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+}
+
+  .schierkei{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+  }
+
+  .farnese{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+  }
+
+  .farnesei{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+  }
+
+  .serpico{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+  }
+
+  .serpicoi{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+  }
+
+.isidro{
+    background-color: #0D0D0D;
+    margin: 20px;
+    max-width: 300px;
+    max-height: 800px;
+}
+
+  .isidroi{
+    width: 300px;
+    height: 400px;
+    padding: 50PX;
+  }
+
+  #art{
+    min-height: 100vh;
+    background: linear-gradient(5deg, #D90404 0%, #8C0303 100%);
+  }
+
+  article{
+    border-radius: 30px;
+  }
+
+#sinopsis{
+  min-height: 100vh;
+  background: linear-gradient(5deg, #D8D9D7 0%, #D90404 100%);
+}
+
+.contentsin{
+  padding: auto 3em;
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  position: relative;
+  border-radius: 10px;
+  background-color: #590202;
+  box-shadow: 0 8px 32px 0 #D90404;
+  backdrop-filter: blur(80px);
+  border: 10px solid #8C0303;
+  margin-top: 100px;
+}
+
+.text1{
+  color: #590202;
+  padding-top: 50px;
+}
+
+.text2{
+  font-size: 20px;
+}
+
+.waos{
+  z-index: 1000;
+  position: fixed;
+  margin-right: 50px;
+}
+
+img{
+  border-radius: 100px;
+
+}
+
