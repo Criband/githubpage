@@ -1,0 +1,139 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .principal {
+    background: rgb(195, 115, 34);
+    background: linear-gradient(380deg, #590202 0%, #0D0D0D 100%);
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .principal header {
+    padding: 10px 100px;
+    min-height: 120px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    position: fixed;
+  
+  }
+  
+  .principal header .logo {
+    max-width: 90px;
+  }
+  
+  .principal header .navegacion {
+    display: flex;
+  }
+  
+  .principal header .navegacion li {
+    list-style: none;
+  
+  }
+  
+  .principal header .navegacion li a {
+    text-decoration: none;
+    color: #D8D9D7;
+    position: relative;
+    margin-left: 40px;
+  }
+  
+  .principal .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  .principal .content .texto {
+    width: 100%;
+    max-width: 600px;
+    margin: 0;
+    color: #D90404;
+  }
+  
+  .principal .content .texto h2 {
+    color: #590202;
+    font-size: 5em;
+    font-weight: 300;
+    line-height: 1.1em;
+    margin: 20px 0;
+  }
+  
+  .principal .content .texto h2 span {
+    font-weight: 700;
+    color: #8C0303;
+  }
+  
+  .principal .content .texto p {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .principal .content .texto .btn {
+    text-decoration: none;
+    background-color: black;
+    color: #590202;
+    border-radius: 40px;
+    position: relative;
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 25px;
+    transition: 0.25s;
+    margin-top: 35px;
+  }
+
+  .principal .content .texto .btn:hover{
+    box-shadow: 0px 0px 15px 15px #D90404;
+  }
+  
+
+
+  .principal .content .texto .btn:hover {
+    letter-spacing: 2px;
+  
+  }
+  
+  .principal .content .content-img img {
+    width: 89%;
+    max-width: 900px;
+    margin-left: 30%;
+  }
+  
+  
+  .principal .waza {
+    justify-content: space-between;
+  
+  }
+  
+  .principal .waza img {
+    width: 40px;
+    justify-content: center;
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    transition: 0.25s;
+    margin: 5px;
+  }
+  
+  .principal .waza:hover img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #D90404;
+    transform: rotate(360deg);
+  }
